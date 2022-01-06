@@ -1,9 +1,22 @@
-@import url("https://unpkg.com/ress@4.0.0/dist/ress.min.css");
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
-    "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: "SF Pro Text", system, -apple-system, ".SFNSText-Regular",
+    "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande",
+    sans-serif;
   padding: 20px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 .mono {
@@ -11,4 +24,27 @@ body {
     "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
     "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
     monospace;
+}
+
+* {
+  line-height: calc(1em + 0.5rem);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
