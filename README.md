@@ -1,6 +1,6 @@
-# sandbox.modulo.to
+# sandbox.dynamicimage.co
 
-Examples of modulo in action
+Examples of Dynamic Image
 
 ## Local development
 
