@@ -19,10 +19,10 @@ body {
   height: 630px;
   overflow: hidden;
   position: relative;
+  color: #fff;
 }
 
 h1 {
-  color: #fff;
   font-size: 8em;
   line-height: 0.88em;
   font-family: "Tanker-Regular";
