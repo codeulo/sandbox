@@ -15,8 +15,9 @@
     <meta property="og:description" content="Dynamic Image usage examples" />
     <meta
       property="og:image"
-      content="https://api.screenshotbird.com/screenshot?token=tQBcPmYTAHaPufdcZ0EBI7k2&url=http%3A%2F%2Fsandbox.dynamicimage.co%2Fscratch.html&browser_width=1200&browser_height=630&fresh=true&block_ads=true&block_cookie_banners=true&block_tracking=true&retina=true&response_type=image&image_format=jpg&jpg_quality=100"
+      content="https://di-prism.netlify.app/sandbox.dynamicimage.co"
     />
+    <meta property="DI:css" content="/assets/og.css" />
 
     <link rel="icon" href="/favicon.ico" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -34,5 +35,15 @@
       <li><a href="basic.html">Basic implementation</a></li>
       <li><a href="custom-template.html">Custom template</a></li>
     </ul>
+
+    <template data-DI="og:image">
+      <img
+        src="https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+      />
+      <div>
+        <h1>Dynamic Image</h1>
+        <p>Create dynamic images using the HTML in your website</p>
+      </div>
+    </template>
   </body>
 </html>
