@@ -44,8 +44,14 @@ img {
   height: 100%;
 }
 
-div {
-  position: absolute;
+[data-di="og:image"] {
+  position: relative;
+  width: 1200px;
+  height: 630px;
+}
+
+.info {
+  position: relative;
   z-index: 1;
   left: 0;
   bottom: 0;
